@@ -1,0 +1,27 @@
+/* SignupClient.css */
+.signup-form-container {
+  display: flex;
+  flex-direction: column; /* Aligner les enfants en colonne (verticalement) */
+  align-items: flex-end; /* Aligner les enfants à gauche */
+  margin-top: 50px; /* Ajouter une marge supérieure pour ajuster la position verticale */
+  margin-bottom: 50px;
+}
+
+ 
+/* form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+} 
+  */
+
+
+/* button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 1px;
+  cursor: pointer;
+  border: none;
+  box-sizing: border-box;
+} */
+

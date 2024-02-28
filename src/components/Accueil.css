@@ -1,0 +1,18 @@
+
+/* Accueil.css */
+
+.cover-container {
+    position: relative;
+    height: 75vh; /* 75% de la hauteur de la vue */
+    overflow: hidden; /* Pour s'assurer que l'image ne déborde pas du conteneur */
+  }
+  
+  .cover-image {
+    width: 100%; /* La largeur de l'image est de 100% pour s'adapter au conteneur */
+    height: 100%; /* La hauteur de l'image est de 100% pour s'adapter au conteneur */
+    object-fit: cover; /* Assurez-vous que l'image couvre complètement le conteneur */
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  

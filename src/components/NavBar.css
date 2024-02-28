@@ -1,0 +1,60 @@
+/* NavBar.css */
+
+/* Ajoutez des styles pour le NavBar */
+nav {
+  background-color:#2470a0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: auto;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  margin-left: auto; /*el bouton 3al lisar*/
+}
+
+li {
+  display: inline;
+  margin-right: 20px; /* Alignez les éléments li à droite */
+}
+
+.navButton {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 15px;
+}
+
+.Button {
+  color: #ffffff;
+  font-weight: bold; /* Rend le texte en gras */
+}
+
+
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  width: 50px;/* Ajustez la largeur selon vos besoins */
+  height: auto;
+  margin-right: 10px;  /*Ajoutez une marge à droite si nécessaire */
+}
+
+
+.title {
+  margin: 0; /* Supprimez la marge par défaut du titre */
+  display: flex;
+  flex-direction: column;
+}
+
+.billpay-text {
+  color: darkgray; /* Couleur grise foncée pour "BillPay" */
+}
+
+.visto-text {
+  color: #8b0000; /* Rouge bordeaux pour "Visto" */
+}
+
